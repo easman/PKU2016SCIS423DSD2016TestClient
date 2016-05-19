@@ -1,4 +1,4 @@
-package testUnpacked;
+package dsd2016.gui;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import  dsd2016.api.DSD2016JAVA;
 
-public class testPage extends Application{
+public class PageController extends Application{
 	
 	
 	

@@ -1,4 +1,4 @@
-package testUnpacked;
+package dsd2016.gui;
 
 import java.io.File;
 import java.io.FileInputStream;
