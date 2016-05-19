@@ -33,7 +33,7 @@ public class ReturnPage_SUF extends Pane{
 		tx1.setX(210);
 		tx1.setY(75);
 		tx1.setFont(Font.font ("Verdana", 30));
-		tx2.setX(280);
+		tx2.setX(10);
 		tx2.setY(130);
 		tx2.setFont(Font.font ("Verdana", 20));
 		back.setX(305);

@@ -32,7 +32,7 @@ public class ReturnPage_SUS extends Pane{
 		tx1.setX(103);
 		tx1.setY(75);
 		tx1.setFont(Font.font ("Verdana", 30));
-		tx2.setX(250);
+		tx2.setX(10);
 		tx2.setY(130);
 		tx2.setFont(Font.font ("Verdana", 30));
 		
