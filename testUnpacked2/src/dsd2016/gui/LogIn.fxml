@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="LogIn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsd2016.gui.LogInController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="800.0">
+         <image>
+            <Image url="@background.jpg" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="Password" layoutX="147.0" layoutY="425.0" prefHeight="30.0" prefWidth="508.0" promptText="Please input password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="UserName" layoutX="147.0" layoutY="332.0" prefHeight="30.0" prefWidth="508.0" promptText="Please input user name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label fx:id="label1" layoutX="177.0" layoutY="294.0" text="User does not exist or password error!" textFill="RED" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button id="Back" layoutX="143.0" layoutY="536.0" mnemonicParsing="false" onAction="#B_Back" prefHeight="40.0" prefWidth="193.0" style="-fx-background-color: #808080;" text="Back" textFill="#fcf9f9">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="Submit" layoutX="465.0" layoutY="536.0" mnemonicParsing="false" onAction="#B_Submit" prefHeight="40.0" prefWidth="193.0" style="-fx-background-color: #f08080;" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="348.0" layoutY="82.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="171.0" layoutY="186.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="234.0" text="FOR FACE RECOGNITION SERVER" textFill="#fcb8b8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="210.0" layoutY="294.0" text=" You haven't finished typing yet" textFill="RED" visible="false">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

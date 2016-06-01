@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="ReturnSUS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" style="-fx-background-color: #fff5ee;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsd2016.gui.ReturnSUSController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="800.0" opacity="0.37">
+         <image>
+            <Image url="@Back3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="432.0" layoutY="185.0" prefHeight="219.0" prefWidth="345.0" text="Your account has been created sucessfully." wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button id="Log In" layoutX="433.0" layoutY="375.0" mnemonicParsing="false" onAction="#B_LogIn" prefHeight="48.0" prefWidth="170.0" style="-fx-background-color: #f08080;" text="Log In Now">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="516.0" fitWidth="381.0" layoutX="52.0" layoutY="55.0">
+         <image>
+            <Image url="@yes.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

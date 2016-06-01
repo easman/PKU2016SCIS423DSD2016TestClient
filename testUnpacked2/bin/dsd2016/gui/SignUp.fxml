@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsd2016.gui.SignUpController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="800.0">
+         <image>
+            <Image url="@backgroundIndex.jpg" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="NewPassword" alignment="CENTER" layoutX="173.0" layoutY="387.0" prefHeight="47.0" prefWidth="441.0" promptText="Please Input New Password">
+         <font>
+            <Font size="18.0" />
+         </font></PasswordField>
+      <TextField fx:id="NewUserName" alignment="CENTER" layoutX="172.0" layoutY="299.0" prefHeight="47.0" prefWidth="441.0" promptText="Please Input New User Name">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label fx:id="label2" layoutX="246.0" layoutY="260.0" text="This user already exists!" textFill="RED" visible="false">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font></Label>
+      <Button id="Back" layoutX="336.0" layoutY="550.0" mnemonicParsing="false" onAction="#B_Back" prefHeight="28.0" prefWidth="125.0" style="-fx-background-color: gray;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="102.0" fitWidth="102.0" layoutX="112.0" layoutY="141.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Button id="Submit" layoutX="288.0" layoutY="474.0" mnemonicParsing="false" onAction="#B_Submit" prefHeight="36.0" prefWidth="213.0" style="-fx-background-color: #f08080;" text="Submit">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="220.0" layoutY="200.0" text="FOR FACE RECOGNITION SERVER" textFill="#fcb8b8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="152.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="197.0" layoutY="260.0" text=" You haven't finished typing yet" textFill="RED" visible="false">
+         <font>
+            <Font name="Berlin Sans FB" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

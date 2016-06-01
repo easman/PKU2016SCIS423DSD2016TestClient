@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="Get8Pic" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsd2016.gui.Get8PicController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="800.0">
+         <image>
+            <Image url="@Back3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="106.0" layoutY="412.0" prefHeight="156.0" prefWidth="250.0" text="Press    add    button to capture next picture when the 8 picyures have been taked , press trainbutton to continue." textFill="#f2ecec" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView fx:id="imageCur" fitHeight="250.0" fitWidth="250.0" layoutX="106.0" layoutY="146.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <Button id="Add" layoutX="158.0" layoutY="428.0" mnemonicParsing="false" onAction="#B_Add" prefHeight="28.0" prefWidth="61.0" style="-fx-background-color: #f08080;" text="Add">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="Back" layoutX="123.0" layoutY="576.0" mnemonicParsing="false" onAction="#B_Back" prefHeight="33.0" prefWidth="195.0" style="-fx-background-color: #808080;" text="Back" textFill="#f5f2f2">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="Upload" layoutX="483.0" layoutY="576.0" mnemonicParsing="false" onAction="#B_Upload" prefHeight="33.0" prefWidth="195.0" style="-fx-background-color: #f08080;" text="Upload">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="imageCur7" fitHeight="100.0" fitWidth="100.0" layoutX="580.0" layoutY="456.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur5" fitHeight="100.0" fitWidth="100.0" layoutX="580.0" layoutY="346.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur3" fitHeight="100.0" fitWidth="100.0" layoutX="580.0" layoutY="236.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur1" fitHeight="100.0" fitWidth="100.0" layoutX="580.0" layoutY="126.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur6" fitHeight="100.0" fitWidth="100.0" layoutX="455.0" layoutY="456.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur4" fitHeight="100.0" fitWidth="100.0" layoutX="455.0" layoutY="346.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur2" fitHeight="100.0" fitWidth="100.0" layoutX="455.0" layoutY="236.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCur0" fitHeight="100.0" fitWidth="100.0" layoutX="455.0" layoutY="126.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="212.0" layoutY="35.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="214.0" layoutY="83.0" text="FOR FACE RECOGNITION SERVER" textFill="#fcb8b8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="102.0" fitWidth="102.0" layoutX="106.0" layoutY="24.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

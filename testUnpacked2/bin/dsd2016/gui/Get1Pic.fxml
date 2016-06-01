@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="Get1Pic" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsd2016.gui.Get1PicController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="800.0">
+         <image>
+            <Image url="@back0.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="433.0" layoutY="234.0" prefHeight="200.0" prefWidth="313.0" text="Press                                    to choose your picture" textFill="#f2efef" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button id="Back" layoutX="153.0" layoutY="543.0" mnemonicParsing="false" onAction="#B_Back" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: GRAY;" text="Back" textFill="#f8f8f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="Shot" layoutX="504.0" layoutY="302.0" mnemonicParsing="false" onAction="#B_Shot" prefHeight="24.0" prefWidth="106.0" style="-fx-background-color: #f08080;" text="Shot">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="Upload" layoutX="482.0" layoutY="542.0" mnemonicParsing="false" onAction="#B_Upload" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #f08080;" text="Upload">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="imageCur" fitHeight="237.0" fitWidth="235.0" layoutX="148.0" layoutY="225.0">
+         <image>
+            <Image url="@addpic.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="215.0" layoutY="77.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="217.0" layoutY="125.0" text="FOR FACE RECOGNITION SERVER" textFill="#fcb8b8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="102.0" fitWidth="102.0" layoutX="109.0" layoutY="66.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

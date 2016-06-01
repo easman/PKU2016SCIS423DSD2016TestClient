@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dsd2016.gui.IndexController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="800.0">
+         <image>
+            <Image url="@backgroundIndex.jpg" />
+         </image>
+      </ImageView>
+      <Button id="SignUpNow" layoutX="209.0" layoutY="367.0" mnemonicParsing="false" onAction="#B_SignUpNow" prefHeight="51.0" prefWidth="368.0" style="-fx-background-color: #f08080;" text="Sign Up Now">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button id="LogIn" layoutX="282.0" layoutY="460.0" mnemonicParsing="false" onAction="#B_LogIn" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: gray;" text="Log In" textFill="#fcf8f8">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="64.0" layoutY="222.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Arial" size="61.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="116.0" fitWidth="116.0" layoutX="336.0" layoutY="85.0">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="195.0" layoutY="292.0" text="FOR FACE RECOGNITION SERVER" textFill="#fcb8b8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
