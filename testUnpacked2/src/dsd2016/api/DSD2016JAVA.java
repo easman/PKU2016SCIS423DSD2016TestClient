@@ -30,6 +30,7 @@ public class DSD2016JAVA
 	public static final int ERRORCODE_LOGIN_IO_ERROR = -1;
 	public static final int ERRORCODE_LOGIN_UNKNOWN = -2;
 	
+<<<<<<< HEAD
 ///////////////////////////////////////////////////////////////////////////////
 /////////////////registerNewUser function and its variants/////////////////////
 ///////////////////////////////////////////////////////////////////////////////
@@ -85,6 +86,8 @@ public class DSD2016JAVA
 		//start thread.
 		t.start();
 	}
+=======
+>>>>>>> 8bec9815352c3eee96fcc98669f97066fbdc6de5
 	
 	public static int registerNewUser(
 			ArrayList<String> inB64Pics, 
@@ -153,6 +156,7 @@ public class DSD2016JAVA
 	
 	
 	
+<<<<<<< HEAD
 ///////////////////////////////////////////////////////////////////////////////
 /////////////////////validateUser function and its variants////////////////////
 ///////////////////////////////////////////////////////////////////////////////
@@ -217,6 +221,9 @@ public class DSD2016JAVA
 			String inB64Pic, 
 			StringBuilder outMsg
 	)
+=======
+	public static int validateUser(String userID, String inB64Pic, StringBuilder outMsg)
+>>>>>>> 8bec9815352c3eee96fcc98669f97066fbdc6de5
 	{
 		//Convert inputs to JSONObject
 		JSONObject content = new JSONObject();
