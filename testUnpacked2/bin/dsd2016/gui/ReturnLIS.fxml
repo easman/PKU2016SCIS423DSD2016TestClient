@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0" opacity="0.37">
          <image>
-            <Image url="@back0.jpg" />
+            <Image url="@dsd2016/gui/back0.jpg" />
          </image>
       </ImageView>
       <Label layoutX="464.0" layoutY="56.0" prefHeight="383.0" prefWidth="271.0" text="Good! Your face matches with user account" textFill="#111111" wrapText="true">
@@ -29,7 +29,7 @@
       </Button>
       <ImageView fitHeight="522.0" fitWidth="420.0" layoutX="49.0" layoutY="48.0">
          <image>
-            <Image url="@yes.png" />
+            <Image url="@dsd2016/gui/yes.png" />
          </image>
       </ImageView>
    </children>

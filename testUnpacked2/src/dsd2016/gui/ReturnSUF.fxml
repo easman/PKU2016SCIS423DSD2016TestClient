@@ -53,7 +53,7 @@
       </Button>
       <ImageView fitHeight="512.0" fitWidth="251.0" layoutX="93.0" layoutY="43.0">
          <image>
-            <Image url="@no.png" />
+            <Image url="@dsd2016/gui/no.png" />
          </image>
       </ImageView>
    </children>

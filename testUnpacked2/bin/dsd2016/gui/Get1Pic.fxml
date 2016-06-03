@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0">
          <image>
-            <Image url="@back0.jpg" />
+            <Image url="@dsd2016/gui/back0.jpg" />
          </image>
       </ImageView>
       <Label layoutX="433.0" layoutY="234.0" prefHeight="200.0" prefWidth="313.0" text="Press                                    to choose your picture" textFill="#f2efef" wrapText="true">
@@ -45,7 +45,7 @@
       </Button>
       <ImageView fx:id="imageCur" fitHeight="237.0" fitWidth="235.0" layoutX="148.0" layoutY="225.0">
          <image>
-            <Image url="@addpic.jpg" />
+            <Image url="@dsd2016/gui/addpic.jpg" />
          </image>
       </ImageView>
       <Label layoutX="215.0" layoutY="77.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">
@@ -60,7 +60,7 @@
       </Label>
       <ImageView fitHeight="102.0" fitWidth="102.0" layoutX="109.0" layoutY="66.0">
          <image>
-            <Image url="@logo.png" />
+            <Image url="@dsd2016/gui/logo.png" />
          </image>
       </ImageView>
    </children>

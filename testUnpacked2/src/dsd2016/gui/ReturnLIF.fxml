@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0" opacity="0.37">
          <image>
-            <Image url="@back0.jpg" />
+            <Image url="@dsd2016/gui/back0.jpg" />
          </image>
       </ImageView>
       <AnchorPane layoutX="130.0" layoutY="66.0" prefHeight="200.0" prefWidth="200.0">
@@ -43,7 +43,7 @@
             </Label>
             <ImageView fitHeight="550.0" fitWidth="264.0" layoutX="-42.0" layoutY="-28.0">
                <image>
-                  <Image url="@no.png" />
+                  <Image url="@dsd2016/gui/no.png" />
                </image>
             </ImageView>
          </children>

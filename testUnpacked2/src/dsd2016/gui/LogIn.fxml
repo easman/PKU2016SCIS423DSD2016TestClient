@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0">
          <image>
-            <Image url="@background.jpg" />
+            <Image url="@dsd2016/gui/background.jpg" />
          </image>
       </ImageView>
       <PasswordField fx:id="Password" layoutX="147.0" layoutY="425.0" prefHeight="30.0" prefWidth="508.0" promptText="Please input password">
@@ -48,7 +48,7 @@
       </Button>
       <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="348.0" layoutY="82.0">
          <image>
-            <Image url="@logo.png" />
+            <Image url="@dsd2016/gui/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="171.0" layoutY="186.0" text="JAVA TESTING CLIENT" textFill="WHITE" underline="true">

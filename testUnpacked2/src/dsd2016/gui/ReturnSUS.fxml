@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0" opacity="0.37">
          <image>
-            <Image url="@Back3.jpg" />
+            <Image url="@dsd2016/gui/Back3.jpg" />
          </image>
       </ImageView>
       <Label layoutX="432.0" layoutY="185.0" prefHeight="219.0" prefWidth="345.0" text="Your account has been created sucessfully." wrapText="true">
@@ -29,7 +29,7 @@
       </Button>
       <ImageView fitHeight="516.0" fitWidth="381.0" layoutX="52.0" layoutY="55.0">
          <image>
-            <Image url="@yes.png" />
+            <Image url="@dsd2016/gui/yes.png" />
          </image>
       </ImageView>
    </children>

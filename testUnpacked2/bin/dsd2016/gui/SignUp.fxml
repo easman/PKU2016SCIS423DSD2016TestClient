@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0">
          <image>
-            <Image url="@backgroundIndex.jpg" />
+            <Image url="@dsd2016/gui/backgroundIndex.jpg" />
          </image>
       </ImageView>
       <PasswordField fx:id="NewPassword" alignment="CENTER" layoutX="173.0" layoutY="387.0" prefHeight="47.0" prefWidth="441.0" promptText="Please Input New Password">
@@ -37,7 +37,7 @@
       </Button>
       <ImageView fitHeight="102.0" fitWidth="102.0" layoutX="112.0" layoutY="141.0">
          <image>
-            <Image url="@logo.png" />
+            <Image url="@dsd2016/gui/logo.png" />
          </image>
       </ImageView>
       <Button id="Submit" layoutX="288.0" layoutY="474.0" mnemonicParsing="false" onAction="#B_Submit" prefHeight="36.0" prefWidth="213.0" style="-fx-background-color: #f08080;" text="Submit">

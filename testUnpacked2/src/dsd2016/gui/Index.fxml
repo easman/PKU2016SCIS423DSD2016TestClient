@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="650.0" fitWidth="800.0">
          <image>
-            <Image url="@backgroundIndex.jpg" />
+            <Image url="@dsd2016/gui/backgroundIndex.jpg" />
          </image>
       </ImageView>
       <Button id="SignUpNow" layoutX="209.0" layoutY="367.0" mnemonicParsing="false" onAction="#B_SignUpNow" prefHeight="51.0" prefWidth="368.0" style="-fx-background-color: #f08080;" text="Sign Up Now">
@@ -37,7 +37,7 @@
       </Label>
       <ImageView fitHeight="116.0" fitWidth="116.0" layoutX="336.0" layoutY="85.0">
          <image>
-            <Image url="@logo.png" />
+            <Image url="@dsd2016/gui/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="195.0" layoutY="292.0" text="FOR FACE RECOGNITION SERVER" textFill="#fcb8b8">
