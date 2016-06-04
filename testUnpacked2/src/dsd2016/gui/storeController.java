@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 
 public class storeController {
 
-	private static File file = new File("src/dsd2016/account.txt");
+	private static File file = new File("account.txt");
 	
     private storeController(){}
     
